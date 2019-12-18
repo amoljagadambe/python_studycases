@@ -15,6 +15,6 @@ for keys in student:
 # Above method Will only get the keys from dict
 
 
-print(student.get('Parent', 'Error :  Key Not Availble'))
+print(student.get('course', 'Error :  Key Not Availble'))
 
 print(student)
