@@ -1,4 +1,4 @@
-from operator import itemgetter, attrgetter, methodcaller
+from operator import itemgetter, attrgetter
 
 
 class Student:
@@ -25,6 +25,14 @@ student_tuples = [
     ('jane', 'B', 12),
     ('dave', 'B', 10),
 ]
+
+"""
+Sorted() Method Follows the timsort algorithm which is the 
+addition of merge sort and insertion sort  here are some examples 
+This technique is Differ for list.sort() cause .sort() return 
+the None Value after Sorting
+ """
+
 by_lambda = sorted(student_objects, key=lambda student: student.age)  # Sort by Age
 print(by_lambda)
 
