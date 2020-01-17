@@ -22,7 +22,7 @@ class DatasetCleaner:
         return tokens
 
     def line_converter(self, tokens):
-        length = 50 + 1
+        length = 51
         lines = []
 
         for i in range(length, len(tokens)):
