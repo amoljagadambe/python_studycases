@@ -10,7 +10,7 @@ class nethandler:
     def __init__(self):
         print("Store Model init")
 
-    def savenet(self,model=None):
+    def savenet(self, model=None):
         model_json = model.to_json()
         with open(FULL_PATH+"model.json", "w") as json_file:
             json_file.write(model_json)
