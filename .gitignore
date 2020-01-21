@@ -1,6 +1,7 @@
 venv/
 *.pyc
 *.v2
+sample.py
 __pycache__/
 instance/
 .cache/
