@@ -14,6 +14,7 @@ class Employee(object):
 
         Employee.num_emp += 1
 
+    @property
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
@@ -44,14 +45,14 @@ Employee.set_raise_amt(1.05)  # we can run classmethod from instance to like bel
 # emp1.set_raise_amt(1.07)
 
 print(Employee.raise_amt)
-print(emp1.fullname())
+print("Prperty Decoreter ------->", emp1.fullname)
 print(emp1.raise_amt)
 
 emp_str1 = 'yash-mishra-10000'
 emp_str2 = 'shantanu-pachrkar-20000'
 
 emp2 = Employee.from_string(emp_str1)
-print(emp2.fullname())
+print(emp2.fullname)
 print(emp2.email)
 print(emp2.pay)
 
