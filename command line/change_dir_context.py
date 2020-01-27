@@ -2,6 +2,9 @@ import os
 from contextlib import contextmanager
 
 
+# change the current working directory
+# to specified path
+
 @contextmanager
 def change_dir(destination):
     try:
@@ -12,8 +15,8 @@ def change_dir(destination):
         os.chdir(cwd)
 
 
-with change_dir('Dir Name'):
+with change_dir('C:\project\Study\python_studycases\command line'):
     print(os.listdir())
 
-with change_dir('Sample-Dir-Two'):
+with change_dir('C:\project\Study\python_studycases\multithreading'):
     print(os.listdir())
