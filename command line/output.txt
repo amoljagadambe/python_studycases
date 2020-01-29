@@ -1,0 +1,15 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 10BB-65F9
+
+ Directory of C:\project\Study\python_studycases\command line
+
+27-01-2020  07.55 PM    <DIR>          .
+27-01-2020  07.55 PM    <DIR>          ..
+27-01-2020  12.32 PM               478 change_dir_context.py
+01-10-2019  08.33 PM               171 External_commands_calling.py
+29-08-2019  09.51 PM               109 gates.py
+27-01-2020  07.55 PM                 0 output.txt
+27-01-2020  07.55 PM               251 subprocess_module.py
+16-12-2019  03.12 PM               342 timespecific_Condition.py
+               6 File(s)          1,351 bytes
+               2 Dir(s)  94,638,166,016 bytes free
