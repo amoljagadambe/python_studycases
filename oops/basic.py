@@ -58,3 +58,16 @@ print(emp2.pay)
 
 my_date = datetime.date(2019, 2, 20)
 print(Employee.is_workday(my_date))
+
+"""
+Printing Comments and Quotes in print statement
+"""
+
+# Method (1):
+print('Jack\'s')
+
+# Method (2)
+print("this will use the double qouet's")
+
+#Methos(3)
+print("Printing the backspace (with\\\"s)")
