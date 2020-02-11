@@ -20,7 +20,6 @@ print(values[1])  # output : python
 # Access using getattr()
 print(getattr(values, 'name'))  # output : Machine Learning
 
-
 # Conversion Operations
 
 it_list = ['Tensorflow', 'ML']
@@ -43,3 +42,26 @@ using ** operator to return namedtuple from dictionary
 using “**” (double star) operator :- This function is used to convert a dictionary into the namedtuple().
 '''
 print(named_a(**sample_dict))  # output :  courses(name='PowerBI', technology='Tableu')
+
+'''
+EXTENDING THE NAMEDTUPLE AS CLASS
+Namedtuple objects are implemented as regular Python classes internally. 
+Because they are built on top of regular classes you can even add methods
+to a namedtuple’s class.
+'''
+
+Car = namedtuple('Car', ['color', 'mileage'])
+
+
+class ExtendedClass(Car):
+    def colorcheck(self):
+        if self.color == 'red':
+            return '##ff000'
+        else:
+            return '#00000'
+
+
+c_obj = ExtendedClass('black', 132.4)
+c_obj1 = ExtendedClass('red', 132.4)
+print(c_obj.colorcheck())  # output:#00000
+print(c_obj1.colorcheck())  # output:##ff000
