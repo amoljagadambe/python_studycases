@@ -50,7 +50,7 @@ Because they are built on top of regular classes you can even add methods
 to a namedtuple’s class.
 '''
 
-Car = namedtuple('Car', ['color', 'mileage'])
+Car = namedtuple('car', ['color', 'mileage'])
 
 
 class ExtendedClass(Car):
