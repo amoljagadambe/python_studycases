@@ -65,3 +65,14 @@ c_obj = ExtendedClass('black', 132.4)
 c_obj1 = ExtendedClass('red', 132.4)
 print(c_obj.colorcheck())  # output:#00000
 print(c_obj1.colorcheck())  # output:##ff000
+
+'''
+EXTENDING THE NAMEDTUPLE INTO ANOTHER NAMEDTUPLE
+The easiest way to create hierarchies of namedtuples
+is to use the base tuple’s ._fields property
+'''
+ElectricCar = namedtuple('ElectricCar',
+                         Car._fields + ('charge',))  # IMP Tips: never ever forget the , in additional tuple
+
+e_data = ElectricCar('blue', 145.1, 45)
+print(e_data.color)  # output:blue
