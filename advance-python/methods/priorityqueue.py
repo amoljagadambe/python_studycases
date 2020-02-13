@@ -24,3 +24,14 @@ class PriorityQueue(object):
         except IndexError:
             print('Index Out of bound')
             exit(404)
+
+
+if __name__ == '__main__':
+    myqueue = PriorityQueue()
+    myqueue.insert(12)
+    myqueue.insert(1)
+    myqueue.insert(14)
+    myqueue.insert(7)
+    print(myqueue)
+    while not myqueue.isempty:
+        print(myqueue.delete())
