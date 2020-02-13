@@ -68,7 +68,7 @@ print(c_obj1.colorcheck())  # output:##ff000
 
 '''
 EXTENDING THE NAMEDTUPLE INTO ANOTHER NAMEDTUPLE
-The easiest way to create hierarchies of namedtuples
+The easiest way to create hierarchies of namedtuple
 is to use the base tuple’s ._fields property
 '''
 ElectricCar = namedtuple('ElectricCar',
