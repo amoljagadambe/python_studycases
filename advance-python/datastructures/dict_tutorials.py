@@ -1,12 +1,11 @@
-student = {'course':'Python', 'name': 'Amol', 'roll no': 25, 'Skills': ['Python','Machine Learninig']}
+student = {'course': 'Python', 'name': 'Amol', 'roll no': 25, 'Skills': ['Python', 'Machine Learninig']}
 
 print(student['roll no'])
 
 # del student['name']
 name = student.pop('name')
-#pop Method Will pop the value and retrun the value also
+# pop Method Will pop the value and retrun the value also
 print(name)
-
 
 ## important Notes
 
@@ -18,3 +17,8 @@ for keys in student:
 print(student.get('course', 'Error :  Key Not Availble'))
 
 print(student)
+
+# Iterating with the help of enumerate function
+
+for i, (key, value) in enumerate(student.items()):
+    print(i, ')', key, ":", value)
