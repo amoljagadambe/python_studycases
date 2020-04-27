@@ -1,0 +1,31 @@
+# ======================== Elasticsearch Configuration =========================
+#
+# ---------------------------------- Cluster -----------------------------------
+cluster.name: es-localdev
+cluster.routing.allocation.disk.threshold_enabled: false
+#
+# ----------------------------------- Paths ------------------------------------
+#
+# Path to directory where to store the data (separate multiple locations by comma):
+#
+path.data: /var/lib/elasticsearch
+#
+# Path to log files:
+#
+path.logs: /var/log/elasticsearch
+#
+# ---------------------------------- Network -----------------------------------
+#
+# Set the bind address to a specific IP (IPv4 or IPv6):
+#
+network.host: 0.0.0.0
+http.port: 9200
+transport.tcp.port: 9300
+transport.host: 0.0.0.0
+transport.bind_host: 0.0.0.0
+transport.publish_host: 0.0.0.0
+#
+# --------------------------------- Discovery ----------------------------------
+#
+discovery.type: single-node
+#

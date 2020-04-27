@@ -1,0 +1,2 @@
+class WhiteCoatException(Exception):
+    pass

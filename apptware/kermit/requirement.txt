@@ -1,0 +1,12 @@
+elasticsearch==7.5.1
+elasticsearch-dsl==7.1.0
+environs==7.2.0
+scipy==1.4.1
+gensim==3.6.0
+pandas==0.25.3
+scikit-learn==0.22.2.post1
+boto3==1.12.0
+botocore==1.15.0
+pytest==5.3.5
+pytest-elasticsearch==2.0.1
+click==7.0

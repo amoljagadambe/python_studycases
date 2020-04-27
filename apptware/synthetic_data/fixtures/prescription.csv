@@ -1,0 +1,307 @@
+,Abbreviation ,Meaning / Intended Meaning ,Notes About Confusion ,Category
+0,1/2NS ,one-half normal saline (0.45%) ,  ,drug or class name
+1,5-ASA ,5-aminosalicylic acid ,Better to spell out drug name; can be misinterpreted as five tablets of aspirin per FDA ,drug or class name
+2,a ,before ,  ,time
+3,A.M. ,morning ,  ,time
+4,aa ,of each ,  ,measurement
+5,AAA ,"abdominal aortic aneurysm (called a ""triple-A"") ",Can be misinterpreted as 'apply to affected area' ,medical condition
+6,AAA ,apply to affected area ,Can be misinterpreted as 'abdominal aortic aneurysm' ,route of administration
+7,ac ,before meals ,  ,time
+8,achs ,before meals and at bedtime ,  ,time
+9,AD ,right ear ,  ,route of administration
+10,ad lib ,freely; as much as desired ,  ,time
+11,ad sat. ,to saturation ,  ,other
+12,ad. ,to; up to ,Caution not to confuse with AD (meaning right ear) ,measurement
+13,ALT ,alanine aminotransferase ,  ,lab
+14,alt. ,alternate ,  ,time
+15,alt. h. ,every other hour ,  ,time
+16,"am, A.M. ",in the morning; before noon ,  ,time
+17,amp ,ampule ,  ,dosage form
+18,amt. ,amount ,  ,measurement
+19,ant. ,anterior ,  ,other
+20,ante ,before ,  ,time
+21,ap ,before dinner ,  ,time
+22,APAP ,acetaminophen ,"Better to spell out drug name ""acetaminophen"" ",drug or class name
+23,aPTT ,activated partial thromboplastin ,  ,lab
+24,"AQ, aq ",water ,  ,other
+25,"a.s., AS ",left ear ,  ,route of administration
+26,ASA ,aspirin ,"Better to spell out drug name ""aspirin"" ",drug or class name
+27,AST ,aspartate aminotransferase ,  ,lab
+28,ATC ,around the clock ,  ,time
+29,AU ,each ear; both ears ,  ,route of administration
+30,AZT ,zidovudine ,Better to spell drug name out; can be misinterpreted as azathioprine per FDA ,drug or class name
+31,Ba ,barium ,  ,drug or class name
+32,BCP ,birth control pills ,  ,drug or class name
+33,Bi ,bismuth ,  ,drug or class name
+34,"bid, BID ",twice a day ,  ,time
+35,BM ,bowel movement ,  ,other
+36,BMI ,body mass index ,  ,vitals
+37,bol ,bolus ,  ,measurement
+38,BP ,blood pressure ,  ,vitals
+39,BPH ,benign prostatic hypertrophy ,  ,medical condition
+40,BS ,blood sugar ,  ,lab
+41,BSA ,body surface area ,  ,vitals
+42,BT ,bedtime ,"In U.S., 'hs' or 'HS' is more commonly used for bedtime ",time
+43,c ,with ,  ,other
+44,C.C. ,chief complaint ,  ,other
+45,c/o ,complaints of ,  ,other
+46,C&S ,culture and sensitivity ,  ,lab
+47,CABG ,coronary artery bypass graft ,  ,other
+48,CaCO3 ,calcium carbonate ,  ,drug or class name
+49,CAD ,coronary artery disease ,  ,medical condition
+50,CAP ,cancer of the prostate ,"Do not confuse with ""capsule"" ",medical condition
+51,cap. ,capsule ,"Do not confuse with ""cancer of the prostate"" ",dosage form
+52,CBC ,complete blood count ,  ,lab
+53,cc ,cubic centimeter ,"Can also mean ""with food"" ",measurement
+54,CD ,controlled delivery ,  ,drug release technology
+55,CF ,cystic fibrosis ,  ,medical condition
+56,cm ,centimeter ,  ,measurement
+57,CNS ,central nervous system ,  ,other
+58,conc ,concentrated ,  ,other
+59,CPZ ,Compazine ,Better to spell drug name out; can be misinterpreted as chlorpromazine per FDA ,drug or class name
+60,CR ,controlled-release ,  ,drug release technology
+61,"cr, crm ",cream ,  ,dosage form
+62,CV ,cardiovascular ,  ,other
+63,CXR ,chest x-ray ,  ,lab
+64,"D/C, dc, disc. ",discontinue OR discharge ,"Multiple possible meanings; spell out instead of using ""D/C"" ",other
+65,D5/0.9 NaCl ,5% dextrose and normal saline solution (0.9% NaCl) ,  ,drug or class name
+66,D5 1/2/NS ,5% dextrose and half normal saline solution (0.45% NaCl) ,  ,drug or class name
+67,D5NS ,dextrose 5% in normal saline (0.9%) ,  ,drug or class name
+68,D5W ,5% dextrose in water ,  ,drug or class name
+69,DAW ,dispense as written ,  ,other
+70,DBP ,diastolic blood pressure ,  ,lab
+71,dil. ,diluted ,  ,other
+72,disp ,dispense ,  ,other
+73,div ,divide ,  ,other
+74,DKA ,diabetic ketoacidosis ,  ,medical condition
+75,dL ,deciliter ,  ,measurement
+76,DM ,diabetes mellitus ,  ,medical condition
+77,DO ,Doctor of Osteopathic Medicine ,  ,medical specialty
+78,DOB ,date of birth ,  ,other
+79,DPT ,diphtheria-pertussis-tetanus ,Better to spell out vaccine name; can be misinterpreted as Demerol-Phenergan-Thorazine per FDA ,drug or class name
+80,DR ,delayed-release ,  ,drug release technology
+81,DVT ,deep vein thrombosis ,  ,medical condition
+82,DW ,"dextrose in water, diabetes mellitus or distilled water ","Multiple possible meanings; spell out instead of using ""DW"" ",other
+83,EC ,enteric-coated ,  ,drug release technology
+84,EENT ,"Eye, Ear, Nose, and Throat ",  ,Medical Specialty
+85,elix. ,elixir ,  ,dosage form
+86,emuls. ,emulsion ,  ,dosage form
+87,ER ,extended-release ,"Can also mean ""emergency room"" ",drug release technology
+88,ER ,emergency room ,"Can also mean ""extended-release"" ",other
+89,ETOH ,ethyl alcohol ,  ,drug or class name
+90,F ,Fahrenheit ,  ,lab
+91,f or F ,female ,  ,other
+92,FBS ,fasting blood sugar ,  ,lab
+93,FDA ,Food and Drug Administration ,  ,other
+94,Fe ,Iron ,  ,drug or class name or lab
+95,FFP ,fresh frozen plasma ,  ,drug or class name
+96,fl or fld ,fluid ,  ,measurement
+97,ft ,foot ,  ,measurement
+98,"G, or g, or gm ",gram ,g is preferred symbol ,measurement
+99,garg ,gargle ,  ,route of administration
+100,GERD ,gastroesophageal reflux disease ,  ,medical condition
+101,GI ,gastrointestinal ,  ,other
+102,gr. ,grain ,Apothecary measurement (obsolete and may be misinterpreted as gram; do not use) ,measurement
+103,GTT ,glucose tolerance test ,Can be confused with gtt for drops ,lab
+104,"gtt, gtts ","drop, drops ",Can be confused with GTT for glucose tolerance test ,measurement
+105,GU ,genitourinary ,  ,other
+106,guttat. ,drop by drop ,  ,measurement
+107,"h, or hr. ",hour ,  ,time
+108,h/o ,history of ,  ,other
+109,H&H ,hematocrit and hemoglobin ,  ,lab
+110,H2 ,histamine 2 ,  ,other
+111,H20 ,water ,  ,other
+112,HAART ,highly active antiretroviral therapy ,  ,drug or class name
+113,"HCT, or Hct ",hematocrit ,  ,lab
+114,HCT ,hydrocortisone ,Better to spell out drug name; can be misinterpreted as hydrochlorothiazide per FDA ,drug or class name
+115,HCTZ ,hydrochlorothiazide ,Better to spell out drug name; can be misinterpreted as hydrocortisone per FDA ,drug or class name
+116,HR ,heart rate ,  ,vitals
+117,HS ,half-strength ,"better to spell out; do not mistake for ""bedtime"" ",measurement
+118,hs or HS ,"at bedtime, hours of sleep ",Do not misinterpret as 'half-strength' ,time
+119,HTN ,hypertension ,  ,medical condition
+120,hx ,history ,  ,other
+121,IBW ,ideal body weight ,  ,lab
+122,ID ,intradermal OR infectious disease ,"Multiple possible meanings; spell out word instead of using ""ID"" ",route of administration; other
+123,IJ ,injection ,better to spell out 'injection' ,route of administration
+124,IM ,intramuscular ,  ,route of administration
+125,IN ,intranasal ,  ,route of administration
+126,inf ,infusion ,  ,route of administration
+127,inj. ,injection ,  ,route of administration
+128,instill. ,instillation ,  ,route of administration
+129,IP ,intraperitoneal ,  ,route of administration
+130,IR ,immediate-release ,  ,drug release technology
+131,IU ,international unit ,"Mistaken as IV (intravenous) or 10 (ten); Instead spell out ""units"" per Joint Commission's ""Do Not Use"" List of Abbreviations ",measurement
+132,IUD ,intrauterine device ,  ,dosage form
+133,IV ,intravenous ,  ,route of administration
+134,IVP ,intravenous push ,Could be confused with 'intravenous pyelogram' ,route of administration
+135,IVPB ,intravenous piggyback ,  ,route of administration
+136,J ,joule ,  ,lab
+137,K ,potassium ,  ,drug or class name
+138,KOH ,potassium hydroxide ,  ,drug or class name
+139,L ,liter ,  ,measurement
+140,LA ,long-acting ,  ,drug release technology
+141,lab ,laboratory ,  ,other
+142,lb. ,pound ,  ,measurement
+143,LDL ,low-density lipoprotein ,  ,lab
+144,LFT ,liver function tests ,  ,lab
+145,Li ,lithium ,  ,drug or class name
+146,liq. ,liquid ,  ,dosage form
+147,LMP ,last menstrual period ,  ,other
+148,lot ,lotion ,  ,dosage form
+149,LPN ,licensed practical nurse ,  ,medical specialty
+150,LR ,lactated ringer (solution) ,  ,drug or class name
+151,mane ,in the morning ,  ,time
+152,mcg ,microgram ,"Can be misinterpreted to mean ""mg"" or milligram, better to spell out 'microgram' ",measurement
+153,MD ,medical doctor ,  ,medical specialty
+154,MDI ,metered-dose inhaler ,  ,dosage form
+155,mEq ,milliequivalent ,  ,measurement
+156,mEq/L ,milliequivalent per liter ,  ,measurement
+157,Mg ,magnesium ,  ,drug or class name
+158,mg ,milligram ,  ,measurement
+159,MgSO4 ,magnesium sulfate ,"May be confused with ""MSO4"" (morphine sulfate), spell out ""magnesium sulfate"" - Joint Commission's ""Do Not Use"" List of Abbreviations ",drug or class name
+160,mL ,milliliter ,  ,measurement
+161,mm ,millimeter ,  ,measurement
+162,mm of Hg ,millimeters of mercury ,  ,measurement
+163,mMol ,millimole ,  ,measurement
+164,MMR ,measle-mumps-rubella (vaccine) ,  ,drug or class name
+165,mol wt ,molecular weight ,  ,measurement
+166,MR ,modified-release ,  ,drug release technology
+167,MS ,morphine sulfate or magnesium sulfate ,"Can mean either morphine sulfate or magnesium sulfate, spell out drug name - Joint Commission's ""Do Not Use"" List of Abbreviations ",drug or class name
+168,MSO4 ,morphine sulfate ,"May be confused with ""MgSO4""; instead spell out ""morphine sulfate"" - Joint Commission's ""Do Not Use"" List of Abbreviations ",drug or class name
+169,n or noct. ,in the night ,  ,time
+170,N/A ,not applicable ,  ,other
+171,"N/V, N&V ",nausea and vomiting ,  ,other
+172,Na ,sodium ,  ,lab or drug or class name
+173,NAS ,intranasal ,  ,route of administration
+174,NDC ,National Drug Code ,  ,other
+175,NGT ,nasogastric tube ,  ,route of administration
+176,NH3 ,ammonia ,  ,other
+177,NKA ,no known allergies ,  ,other
+178,NKDA ,no known drug allergies ,  ,other
+179,noct. maneq. ,night and morning ,  ,time
+180,NP ,nurse practitioner ,  ,medical specialty
+181,"NPO, n.p.o. ",nothing by mouth ,"Preferred by AMA to spell out ""nothing by mouth"" ",route of administration
+182,NS ,normal saline ,  ,drug or class name
+183,NSAID ,nonsteroidal anti-inflammatory drug ,  ,drug or class name
+184,NTE ,not to exceed ,  ,other
+185,O2 ,oxygen ,  ,other
+186,OC ,oral contraceptive ,  ,drug or class name
+187,"o.d., OD ",right eye ,"Can also mean ""overdose"" or ""once daily""; better to spell out ","route of administration, ophthalmic abbreviations"
+188,o.d. ,once per day ,"Preferred in the UK; Can also mean ""overdose"" or ""right eye""; better to spell out ",time
+189,OJ ,orange juice ,  ,other
+190,OM ,otitis media ,  ,medical condition
+191,"o.s., OS ",left eye ,  ,"route of administration, ophthalmic abbreviations"
+192,OTC ,over-the-counter ,  ,other
+193,"o.u., OU ",both eyes ,  ,"route of administration, ophthalmic abbreviations"
+194,oz ,ounce ,  ,measurement
+195,p ,after ,  ,time
+196,"p.r.n., prn ",as needed ,  ,time
+197,PA ,physician assistant ,  ,medical specialty
+198,pc ,after meals ,  ,time
+199,PCA ,patient-controlled analgesia ,  ,other
+200,PE ,"physical exam, pulmonary embolism ",  ,other
+201,per ,by or through ,  ,route of administration
+202,per neb ,by nebulizer ,  ,route of administration
+203,per os ,"by mouth, orally ","AMA prefers to spell out ""by mouth"" or ""orally""; can be mistaken as ""os"" meaning left eye per FDA ",route of administration
+204,PFT ,pulmonary function tests ,  ,lab
+205,pH ,hydrogen ion concentration ,  ,other
+206,PharmD ,Doctor of Pharmacy ,  ,medical specialty
+207,PM ,evening ,  ,time
+208,PMH ,past medical history ,  ,other
+209,"PO, p.o. ",orally or by mouth ,"AMA prefers to spell out ""by mouth"" or ""orally"" ",route of administration
+210,"PR, p.r. ",per the rectum ,  ,route of administration
+211,PT ,prothrombin time ,  ,lab
+212,PTT ,partial thromboplastin time ,  ,lab
+213,pulv ,powder ,  ,dosage form
+214,PV ,per the vagina ,  ,route of administration
+215,q ,every ,  ,time
+216,"q.s., qs ",as much as needed; a sufficient quantity ,  ,measurement
+217,q12h ,every 12 hours ,  ,time
+218,"qd, q1d ",daily ,  ,time
+219,q2h ,every 2 hours ,  ,time
+220,q3h ,every 3 hours ,  ,time
+221,q4h ,every 4 hours ,  ,time
+222,q6h ,every 6 hours ,  ,time
+223,"q6PM, etc ",every evening at 6 PM ,  ,time
+224,q8h ,every 8 hours ,  ,time
+225,qam ,every morning ,  ,time
+226,"qd, QD ",every day ,"Mistaken as q.i.d; Instead write ""daily"" or ""every day"" per Joint Commission's ""Do Not Use"" List of Abbreviations ",time
+227,qh ,every hour ,  ,time
+228,qhs ,each night at bedtime ,"Can be confused with ""qh"" meaning every hour; better to spell out ",time
+229,qid ,four times a day ,  ,time
+230,qn ,Nightly or at bedtime ,Not commonly used in U.S.; 'hs' more common for bedtime ,time
+231,"qod, QOD, q.o.d ",every other day ,"Can be mistaken as qd (daily) or qid (four times daily); Instead spell out ""every other day"" per Joint Commission's ""Do Not Use"" List of Abbreviations ",time
+232,q.s. ad ,add sufficient quantity to make ,  ,measurement
+233,RA ,rheumatoid arthritis ,  ,medical condition
+234,RDA ,recommended daily allowances ,  ,other
+235,RE ,right eye ,  ,"route of administration, ophthalmic abbreviations"
+236,rep ,repeats ,  ,time
+237,RN ,registered nurse ,  ,medical specialty
+238,RPh ,pharmacist ,  ,medical specialty
+239,Rx ,prescription ,  ,other
+240,s ,without ,  ,other
+241,s.o.s. ,if necessary ,  ,other
+242,sa ,according to the art; best practice ,  ,other
+243,SA ,sustained action ,  ,drug release technology
+244,SBP ,systolic blood pressure ,  ,vital sign
+245,SID ,"Used ONLY in Veterinary medicine to mean ""once daily"" ","Can be confused to mean BID (twice daily) and QID (four times daily); pharmacists should clarify abbreviations with DVM, if needed. ",time; used in Veterinary medicine ONLY
+246,sig codes ,medical or prescription abbreviations ,  ,other
+247,Sig. ,write on label ,  ,other
+248,"SL, s.l. ","sublingual, under the tongue ",  ,route of administration
+249,SNRI ,serotonin/norepinephrine reuptake inhibitor ,  ,drug or class name
+250,SOB ,shortness of breath ,  ,other
+251,sol ,solution; in solution ,  ,dosage form
+252,sp gr ,specific gravity ,  ,lab
+253,"SQ, SC, sub q ",subcutaneously ,"Use caution as ""SC"" can be mistaken for ""SL,"" meaning sublingual per FDA ",route of administration
+254,SR ,sustained release ,  ,drug release technology
+255,ss ,sliding scale (insulin) OR 1/2 (apothecary; obsolete) ,"Use caution; can be misinterpreted; better to spell out ""sliding scale"" or ""one-half"" ",other
+256,SSI ,Sliding scale insulin ,  ,other
+257,SSRI ,sliding scale regular insulin OR selective serotonin reuptake inhibitor ,Spell out words to avoid confusion ,other
+258,stat ,immediately ,  ,time
+259,STD ,sexually transmitted diseases ,  ,medical condition
+260,sup. ,superior ,  ,other
+261,supf. ,superficial ,  ,other
+262,supp ,suppository ,  ,dosage form
+263,susp ,suspension ,  ,dosage form
+264,syr. ,syrup ,  ,dosage form
+265,T ,temperature ,  ,vital sign
+266,tab ,tablet ,  ,dosage form
+267,tbsp ,tablespoon ,  ,measurement
+268,TIA ,transient ischemic attack ,  ,medical condition
+269,"TID, t.i.d. ",three times a day ,  ,time
+270,tid ac ,three times a day before meals ,  ,time
+271,"TIN, t.i.n. ",three times a night ,  ,time
+272,"tinct., tr ",tincture ,  ,dosage form
+273,"TIW, tiw ",3 times a week ,Spell out; can be confused with TID (three times a day) ,time
+274,top. ,topical ,  ,route of administration
+275,TO ,telephone order ,  , 
+276,TPN ,total parenteral nutrition ,  ,drug or class name
+277,TR ,timed-release ,  ,drug release technology
+278,troche ,lozenge ,  ,dosage form
+279,TSH ,thyroid stimulating hormone ,  ,lab
+280,tsp ,teaspoon ,  ,measurement
+281,Tx ,treatment ,  ,other
+282,U or u ,unit ,"Mistaken as the number ""0"" (zero), the number ""4"" (four), or ""cc"". Prescriber should instead spell out ""unit"" per Joint Commission's ""Do Not Use"" List of Abbreviations ",measurement
+283,UA ,urinalysis ,  ,lab
+284,"ud, ut dict, UD ",as directed ,  ,other
+285,ung ,ointment ,  ,dosage form
+286,UTI ,urinary tract infection ,  ,medical condition
+287,"vag, pv ",via the vagina ,  ,route of administration
+288,VLDL ,very low density lipoprotein ,  ,lab
+289,vol % ,volume percent ,  ,measurement
+290,vol. ,volume ,  ,measurement
+291,w/o ,without ,  ,other
+292,w/v ,weight in volume ,  ,measurement
+293,WBC ,white blood cell ,  ,lab
+294,WNL ,within normal limits ,  ,lab
+295,wt. ,weight ,  ,vital sign
+296,x ,multiplied by ,  ,other
+297,XL ,extended-release ,  ,drug release technology
+298,XR ,extended-release ,  ,drug release technology
+299,XT ,extended-release ,  ,drug release technology
+300,yo ,years old ,  ,other
+301,yr ,year ,  ,time
+302,Zn ,zinc ,  ,drug or class drug or class name
+303,μEq ,microequivalent ,  ,measurement
+304,"μg, mcg ",microgram ,"μg or mcg can be misinterpreted as ""mg"", better to spell out 'microgram' ",measurement
+305,μL ,microliter ,  ,measurement

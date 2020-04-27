@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "input": "Dr . John  says that abdominal aortic aneurysm (called a 'triple-A')",
+            "output": "Dr . John  says that abdominal aortic aneurysm (called a 'triple-A')"
+        },
+        {
+            "input": "BP: 120/80 Stable",
+            "output": "BP: 120/80 Stable"
+        },
+        {
+            "input": "In U.S., 'hs' or 'HS' is more commonly used for bedtime",
+            "output": "In U.S., 'hs' or 'HS' is more commonly used for bedtime"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+#!groovy
+
+/*
+ * Copyright (c) 2020 Pieces Technologies, Inc.  All rights reserved.
+ */
+
+pipeline {
+    agent any
+
+    environment {
+        ECR_REPO = '174736264861.dkr.ecr.us-east-1.amazonaws.com/'
+        TARGET_CONTAINER = "${ECR_REPO}aiengine/note_preprocessor"
+        GIT_COMMIT_HASH = sh (script: "git log -n 1 --pretty=format:'%h'", returnStdout: true)
+        ECR_LOGIN = 'aws ecr get-login --no-include-email --region us-east-1 | sh'
+    }
+
+    stages {
+            stage('push to Docker') {
+                steps {
+                    sh ECR_LOGIN
+                    sh 'docker build . -t ${TARGET_CONTAINER}:${GIT_COMMIT_HASH}'
+                    sh "docker tag ${TARGET_CONTAINER}:${GIT_COMMIT_HASH} ${TARGET_CONTAINER}:latest"
+
+                    sh ECR_LOGIN +
+                        " && docker push ${TARGET_CONTAINER}:${GIT_COMMIT_HASH}" +
+                        " && docker push ${TARGET_CONTAINER}:latest"
+                }
+            }
+           stage('twistlock scan') {
+                steps {
+                    sh 'docker images'
+                    twistlockScan ca: '',
+                            cert: '',
+                            compliancePolicy: 'warn',
+                            containerized: false,
+                            dockerAddress: 'unix:///var/run/docker.sock',
+                            gracePeriodDays: 0,
+                            ignoreImageBuildTime: true,
+                            key: '',
+                            logLevel: 'true',
+                            policy: 'warn',
+                            requirePackageUpdate: false,
+                            timeout: 10,
+                            repository: "${TARGET_CONTAINER}",
+                            tag: "${GIT_COMMIT_HASH}",
+                            image: "${TARGET_CONTAINER}:${GIT_COMMIT_HASH}"
+                }
+            }
+            stage('twistlock publish') {
+                steps {
+                    twistlockPublish ca: '',
+                            cert: '',
+                            dockerAddress: 'unix:///var/run/docker.sock',
+                            key: '',
+                            logLevel: 'true',
+                            timeout: 10,
+                            ignoreImageBuildTime: true,
+                            repository: "${TARGET_CONTAINER}",
+                            tag: "${GIT_COMMIT_HASH}",
+                            image: "${TARGET_CONTAINER}:${GIT_COMMIT_HASH}"
+                }
+            }
+        }
+}

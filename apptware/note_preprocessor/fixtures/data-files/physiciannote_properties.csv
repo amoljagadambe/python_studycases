@@ -1,0 +1,6 @@
+"HospitalCode","PatientID","EncounterID","NoteID","RawNoteType","NoteAuthorType"
+"HCST_0","PATIENT_ID_0","Encounter_ID_0","Note_ID_0","","code_0"
+"HCST_0","PATIENT_ID_0","Encounter_ID_0","Note_ID_12","Raw_A3",""
+"HCST_0","PATIENT_ID_0","Encounter_ID_0","Note_ID_13","Raw_H3",""
+"HCST_0","PATIENT_ID_0","Encounter_ID_0","Note_ID_14","","code_14"
+"HCST_0","PATIENT_ID_0","Encounter_ID_0","Note_ID_15","","code_15"

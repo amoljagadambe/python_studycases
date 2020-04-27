@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "input": "• abdominal aortic aneurysm (called a 'triple-A')",
+            "output": "abdominal aortic aneurysm (called a ' triple - A ' )"
+        },
+        {
+            "input": "◦ Better to spell out drug name 'acetaminophen'",
+            "output": "Better to spell out drug name ' acetaminophen ' "
+        },
+        {
+            "input": "In U.S., 'hs' or 'HS' is more commonly used for bedtime ",
+            "output": "In U . S . , ' hs ' or ' HS ' is more commonly used for bedtime"
+        }
+    ]
+}
