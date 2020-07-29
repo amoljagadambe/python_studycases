@@ -17,7 +17,8 @@ class LexiconBot:
             .click()
         sleep(2)
 
-    def load_file(self, file_path, mode):
+    @staticmethod
+    def load_file(file_path, mode):
         file_loader = open(file_path, mode)
         for word in file_loader:
             word_list.append(word.strip('\n'))
