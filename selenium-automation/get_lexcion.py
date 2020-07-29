@@ -13,6 +13,8 @@ class LexiconBot:
     def __init__(self):
         self.driver = webdriver.Chrome('C:/Installed-Software/sel-chrome-driver/chromedriver.exe')
         self.driver.get("http://www.speech.cs.cmu.edu/cgi-bin/cmudict")
+        self.driver.find_element_by_xpath('//input[@type="checkbox"]') \
+            .click()
         sleep(2)
 
     def load_file(self, file_path, mode):
@@ -31,8 +33,6 @@ class LexiconBot:
                 word_element = self.driver.find_element_by_xpath("//input[@name=\"in\"]")
                 word_element.clear()
                 word_element.send_keys(word)
-                self.driver.find_element_by_xpath('//input[@type="checkbox"]') \
-                    .click()
                 self.driver.find_element_by_xpath('//input[@type="submit"]') \
                     .click()
                 sent_word = self.driver.find_element_by_xpath('/html/body/div/tt[1]')
